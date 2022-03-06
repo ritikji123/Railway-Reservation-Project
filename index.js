@@ -35,5 +35,13 @@ app.get("/status", (req, res) => {
 });
 app.get("/pnr", (req, res) => {
   //res.sendFile(path.resolve(__dirname,'pages/post.html'))
-  res.render("contact");
+  res.render("pnr");
+});
+app.get("/signup", (req, res) => {
+  //res.sendFile(path.resolve(__dirname,'pages/post.html'))
+  res.render("signup");
+});
+app.get("/login", (req, res) => {
+  //res.sendFile(path.resolve(__dirname,'pages/post.html'))
+  res.render("login");
 });
